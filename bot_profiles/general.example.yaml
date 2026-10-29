@@ -1,0 +1,26 @@
+name: general
+ollama_url: http://localhost:11434
+model: qwen3.8:27b
+temperature: 0.8
+system_prompt: |
+  You are a friendly AFK bot in a Discord channel. Keep replies short and casual.
+channel_ids: [123456789012345678]   # your channel ID(s): right-click the channel > Copy Channel ID
+mode: all                    # "all" | "trigger"
+triggers: []
+respond_to_mentions: true
+respond_to_replies: true
+context_messages: 15
+cooldown_seconds: 8
+max_reply_chars: 600
+
+# engaged conversations (only used in trigger mode)
+sticky_engage: true
+engage_timeout_seconds: 120
+disengage_phrases: ["not you", "wasn't talking to you", "i was talking to", "talking to someone else", "nobody asked you", "shut up bot", "go away", "stop talking"]
+signoff_phrases: ["that's all", "thanks bot", "bye bot", "TTYL", "ciao", "bye", "see you later"]
+
+# memory (the data itself is always shared; these only tune retrieval)
+memory_enabled: true
+memory_k: 5
+memory_max_chars: 1500
+prefer_current_channel: true   # rank same-channel memories higher; never excludes others

@@ -1,0 +1,8 @@
+last_profile: general
+embed_model: nomic-embed-text
+enabled: false
+start_minimized: false
+hotkey_sound: true
+hotkeys:
+  toggle_enabled: <ctrl>+<alt>+a
+  toggle_mode: <ctrl>+<alt>+m

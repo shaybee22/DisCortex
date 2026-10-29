@@ -1,0 +1,11 @@
+# Runtime dependencies, pinned. Update this file in the same change as any dependency add/bump.
+# Install: setup.bat  (or: .venv\Scripts\python.exe -m pip install -r requirements.txt)
+# Build-only tools (PyInstaller) go in requirements-build.txt.
+discord.py==2.7.1
+httpx==0.28.1
+PyYAML==6.0.3
+numpy==2.5.4
+keyring==25.7.0
+pystray==0.19.5
+Pillow==13.0.0
+pynput==1.8.2

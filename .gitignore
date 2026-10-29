@@ -1,0 +1,19 @@
+# user settings and data (created on first run from the *.example.yaml files)
+config.yaml
+bot_profiles/*.yaml
+!bot_profiles/*.example.yaml
+data/
+logs/
+*.db
+*.db-wal
+*.db-shm
+*.log
+
+# build output and environments
+dist/
+build/
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.spec
