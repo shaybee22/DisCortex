@@ -48,7 +48,7 @@ echo [4/5] Assembling %OUT%...
 if exist "%OUT%" rmdir /s /q "%OUT%"
 mkdir "%OUT%\assets" "%OUT%\bot_profiles" "%OUT%\data" "%OUT%\logs"
 copy /y "build\exe\DisCortex.exe" "%OUT%\" >nul || goto :fail
-for %%F in (start.bat start-console.bat README.md) do copy /y "%%F" "%OUT%\" >nul || goto :fail
+for %%F in (start.bat start-console.bat README.md LICENSE) do copy /y "%%F" "%OUT%\" >nul || goto :fail
 copy /y "assets\discortex.png" "%OUT%\assets\" >nul
 copy /y "assets\discortex.ico" "%OUT%\assets\" >nul
 rem ship only the examples; the app copies them to config.yaml / <name>.yaml on first run

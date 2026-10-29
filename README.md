@@ -367,7 +367,7 @@ and puts a clean, ready-to-copy portable folder in **`dist\DisCortex\`**:
 
 ```
 dist\DisCortex\
-  DisCortex.exe  start.bat  start-console.bat  README.md
+  DisCortex.exe  start.bat  start-console.bat  README.md  LICENSE
   config.example.yaml
   bot_profiles\*.example.yaml
   assets\  data\ (empty)  logs\ (empty)
@@ -415,3 +415,7 @@ Run **`start-console.bat`** to see the log live while DisCortex runs. The same l
 ## License
 
 See [LICENSE](LICENSE).
+
+---
+
+<p align="center">Created by <a href="https://github.com/shaybee22">James Powell</a></p>
